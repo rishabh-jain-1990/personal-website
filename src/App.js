@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Hero from "./sections/Hero";
+import Summary from "./sections/Summary";
+import Skills from "./sections/Skills"
+import Projects from "./sections/Projects";
+import SocialMedia from "./sections/Social Media";
+import WorkExperience from "./sections/Work Experience";
+import Education from "./sections/Education";
+import Contact from "./sections/Contact";
+import Testimonials from "./sections/Testimonials"
 
-function App() {
+// We will create these two pages in a moment
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Hero/>
+    <Summary id={10}/>
+    <Skills />
+    <Projects />
+    <SocialMedia />
+    <Testimonials />
+    <WorkExperience />
+    <Education />
+    <Contact />
     </div>
   );
 }
-
-export default App;
