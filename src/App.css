@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +41,61 @@
     transform: rotate(360deg);
   }
 }
+
+/* :root {
+  --primary: #caf0f8;
+  --primary-dark: #118ab2;
+  --secondary: #f4a261;
+  --secondary-dark: #bb3e03;
+} */
+
+:root {
+  --primary: #caf0f8;
+  --primary-dark: #525960;
+  --secondary: #f4a261;
+  --secondary-dark: #f8f9fa;
+}
+
+
+.Section-Default{
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.Hero {
+  background-color: var(--primary);
+}
+
+.Hero-Square{
+  height: 55vh;
+  width: 55vh;
+  border: 6px solid var(--primary-dark);
+  border-radius: 20px;
+  bottom: 10vh;
+  left: 5vw;
+  position: relative;
+}
+
+.Hero-Image{
+  height: 55vh;
+  width: 55vh;
+  border-radius: 20px;
+  position: relative;
+  top:10vh;
+  right:10vw;
+}
+
+.Summary {
+  background-color: var(--secondary)
+}
+
+.Projects {
+  background-color: var(--primary-dark)
+}
+
+.Skills {
+  background-color: var(--secondary-dark)
+}
+

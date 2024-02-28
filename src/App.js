@@ -13,10 +13,10 @@ import Testimonials from "./sections/Testimonials"
 export default function App() {
   return (
     <div>
-    <Hero/>
+    <Hero />
     <Summary id={10}/>
-    <Skills />
     <Projects />
+    <Skills />
     <SocialMedia />
     <Testimonials />
     <WorkExperience />
