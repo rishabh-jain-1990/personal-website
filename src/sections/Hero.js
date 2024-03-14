@@ -1,5 +1,6 @@
 import React from "react";
 import hero_img from "../assets/img_hero.JPG";
+import {hero_title , hero_subtitle} from "../utils/Constants";
 
 import "../App.css";
 
@@ -7,8 +8,8 @@ export default function Hero() {
 return (
   <div className="Section-Default Hero">
     <div>
-   <h1 style={{ color: 'var(--primary-dark)' }}>Hi, I'm Rishabh Jain</h1>
-   <h3 style={{ color: 'var(--primary-dark)', marginTop:"10px"}}>Entrepreneur | Techie | Adventurer</h3>
+   <h1 style={{ color: 'var(--primary-dark)' }}>{hero_title}</h1>
+   <h3 style={{ color: 'var(--primary-dark)', marginTop:"10px"}}>{hero_subtitle}</h3>
    </div>
    <div className="Hero-Square">
     <img className="Hero-Image" src={hero_img}></img>
