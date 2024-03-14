@@ -14,7 +14,7 @@ export default function App() {
   return (
     <div>
     <Hero />
-    <Summary id={10}/>
+    <Summary />
     <Projects />
     <Skills />
     <SocialMedia />
