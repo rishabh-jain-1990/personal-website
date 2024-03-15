@@ -111,6 +111,8 @@
 
 .Education {
   background-color: var(--secondary);
+  flex-direction:column;
+  justify-content: flex-start;
 }
 
 .Education-Item {

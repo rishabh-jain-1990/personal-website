@@ -8,19 +8,22 @@ import { openInNewTab } from '../utils/Methods.js';
 export default function SocialMedia() {
 
     return (
-        <div className='Section-Default Social-Media'>
-        <div onClick={() => openInNewTab('https://www.instagram.com/rjain90')} style={{cursor:"pointer"}}>
-            <InstaLogo fill='white' style={{width:'100px', height: '100px'}}/>
-        </div>
-        <div onClick={() => openInNewTab('https://github.com/rishabh-jain-1990')} style={{cursor:"pointer"}}>
-            <GitLogo fill='white' style={{width:'100px', height: '100px'}}/>
-        </div>
-        <div onClick={() => openInNewTab('https://www.linkedin.com/in/rjain90')} style={{cursor:"pointer"}}>
-            <LiLogo fill='white' style={{width:'100px', height: '100px'}}/>
-        </div>
-        <div onClick={() => openInNewTab('https://twitter.com/rjain90')} style={{cursor:"pointer"}}>
-            <XLogo fill='white' style={{width:'100px', height: '100px'}}/>
-        </div>
+        <div className='Section-Default Social-Media' style={{flexDirection:'column', justifyContent:'center'}}>
+            <h1 style={{ color: 'var(--primary-dark)', marginTop:'5%'}}>Social Media</h1>
+            <div style={{flexDirection:'row', display: 'flex', justifyContent:'space-evenly', width:'100%', flexWrap:'wrap', marginTop:'auto', marginBottom:'auto'}}>
+                <div onClick={() => openInNewTab('https://www.instagram.com/rjain90')} style={{cursor:"pointer"}}>
+                    <InstaLogo fill='white' style={{width:'100px', height: '100px'}}/>
+                </div>
+                <div onClick={() => openInNewTab('https://github.com/rishabh-jain-1990')} style={{cursor:"pointer"}}>
+                    <GitLogo fill='white' style={{width:'100px', height: '100px'}}/>
+                </div>
+                <div onClick={() => openInNewTab('https://www.linkedin.com/in/rjain90')} style={{cursor:"pointer"}}>
+                    <LiLogo fill='white' style={{width:'100px', height: '100px'}}/>
+                </div>
+                <div onClick={() => openInNewTab('https://twitter.com/rjain90')} style={{cursor:"pointer"}}>
+                    <XLogo fill='white' style={{width:'100px', height: '100px'}}/>
+                </div>
+            </div>
         </div>
     );
 }
