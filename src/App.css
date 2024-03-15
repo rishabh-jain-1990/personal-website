@@ -99,3 +99,18 @@
   background-color: var(--secondary-dark)
 }
 
+.Education {
+  background-color: var(--secondary);
+}
+
+.Education-Item {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 5%;
+  margin-right: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: auto;
+}
+
