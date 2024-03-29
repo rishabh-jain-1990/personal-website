@@ -128,3 +128,16 @@
   margin-right: 60px;
   align-self: center;
 }
+
+.Skill-People-Item {
+  height: 100%;
+  margin-left: 60px;
+  margin-right: 60px;
+  align-self: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: var(--secondary);
+  text-align: center;
+  font-size: 32px;
+  align-content: center;
+}

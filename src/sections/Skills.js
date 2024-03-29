@@ -19,7 +19,7 @@ export default function Skills() {
     >
       <h1 style={{ color: "var(--secondary)", marginTop: "5%" }}>Skills</h1>
 
-      <h2 style={{ color: "var(--secondary)", marginTop: "1%" }}>Technical</h2>
+      <h2 style={{ color: "var(--secondary)", marginTop: "3%" }}>Technical</h2>
       <div
         style={{
           flexDirection: "row",
@@ -29,12 +29,11 @@ export default function Skills() {
           marginTop: "2%",
           marginBottom: "auto",
           alignItems: "center",
-          backgroundColor: "#543",
           justifyContent: "space-evenly",
         }}
       >
         <Ticker
-          slideSpeed="50"
+          slideSpeed="15"
           show={true}
           style={{
             // flexDirection: "row",
@@ -45,9 +44,22 @@ export default function Skills() {
             marginTop: "2%",
             marginBottom: "auto",
             alignItems: "center",
-            backgroundColor: "#543",
           }}
         >
+          <p
+            className="Skill-Technical-Item"
+            style={{
+              color: "var(--secondary)",
+              textAlign: "center",
+              fontSize: 32,
+              fontWeight: "bold",
+              alignContent: "center",
+            }}
+          >
+            System
+            <br />
+            Design
+          </p>
           <div>
             <AndroidLogo
               className="Skill-Technical-Item"
@@ -159,6 +171,38 @@ export default function Skills() {
               alt="AWS Logo"
             />
           </div>
+        </Ticker>
+      </div>
+
+      <h2 style={{ color: "var(--secondary)" }}>People</h2>
+      <div
+        style={{
+          flexDirection: "row",
+          display: "flex",
+          width: "100%",
+          flexWrap: "wrap",
+          marginTop: "2%",
+          marginBottom: "auto",
+          alignItems: "center",
+          justifyContent: "space-evenly",
+        }}
+      >
+        <Ticker
+          slideSpeed="15"
+          show={true}
+          style={{
+            width: "100%",
+            flexWrap: "wrap",
+            marginTop: "2%",
+            marginBottom: "auto",
+            alignItems: "center",
+          }}
+        >
+          <p className="Skill-People-Item">Cross-functional Team Leadership</p>
+          <p className="Skill-People-Item">Strategic Networking</p>
+          <p className="Skill-People-Item">Talent Acquisition & Development</p>
+          <p className="Skill-People-Item">Conflict Management</p>
+          <p className="Skill-People-Item">Product Management</p>
         </Ticker>
       </div>
     </div>

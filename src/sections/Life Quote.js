@@ -11,7 +11,6 @@ export default function LifeQuote() {
           textAlign: "center",
           marginLeft: "5%",
           marginRight: "5%",
-          lineHeight: 2,
           fontSize: 26,
           whiteSpace: "pre-wrap",
         }}
