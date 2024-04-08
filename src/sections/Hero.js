@@ -1,5 +1,5 @@
 import React from "react";
-import hero_img from "../assets/img_hero.JPG";
+import hero_img from "../assets/1610519214747_plus.jpg";
 import {hero_title , hero_subtitle} from "../utils/Constants";
 
 import "../App.css";

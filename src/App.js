@@ -17,13 +17,13 @@ export default function App() {
     <Hero />
     <LifeQuote />
     <Summary />
-    <Projects />
+    {/* <Projects /> */}
     <Skills />
     <SocialMedia />
     <Testimonials />
     <WorkExperience />
     <Education />
-    <Contact />
+    {/* <Contact /> */}
     </div>
   );
 }
