@@ -1,0 +1,16 @@
+
+
+
+1. Hero image and its square positioning. In general positioning of elements.
+2. Flex box and its properties.
+3. General CSS naming conventions.
+4. Reduce the use of fixed width and height.
+5. Component naming conventions.
+7. Image elements are missing alt attribute.
+9. Use of external, internal and inline CSS.
+8. Use of media queries.
+10. Read about box model.
+6. Component folder structure. 
+    [ComponentName]
+        index.jsx
+        style.css/scss

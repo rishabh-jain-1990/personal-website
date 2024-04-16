@@ -51,6 +51,7 @@ export default function Skills() {
           Design
         </p>
         <div>
+          {/* Repeating style for SVGs can be extracted to a CSS class */}
           <AndroidLogo
             className="Skill-Technical-Item"
             style={{

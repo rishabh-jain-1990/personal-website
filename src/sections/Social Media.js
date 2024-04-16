@@ -25,6 +25,7 @@ export default function SocialMedia() {
           gap: "50px",
         }}
       >
+        {/* Here Div should be replaced with button, styling of the SVG icons should be done in CSS file to stop repeating the code */}
         <div
           onClick={() => openInNewTab("https://www.instagram.com/rjain90")}
           className="Social-Media-Item"

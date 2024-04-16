@@ -5,8 +5,8 @@ import jiit_logo from '../assets/jiit-logo.png';
 export default function Education() {
   return (
     <div className="Section-Default Education">
+      {/* CSS class name should be lowercase in kebab case fashion, e.g- section-default  */}
       <h1 style={{ color: 'white', marginTop:'5%', }}>Education</h1>
-
       <div className="Education-Item" style={{flexDirection:"row", justifyContent:'space-between', width:'100%', marginTop:'10%', display: 'flex', alignItems:'center', flexWrap:'wrap'}}> 
         <div style={{flexDirection:"column", display: 'flex', marginLeft:'5%'}}>
           <h1 style={{ color: 'white'}}>Newcastle University, UK</h1>

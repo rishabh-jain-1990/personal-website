@@ -1,5 +1,6 @@
 import React from "react";
 
 export default function Testimonials() {
-    return (null);
+  // React Fragment can be returned here instead of null
+  return null;
 }
