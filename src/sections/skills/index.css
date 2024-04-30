@@ -1,0 +1,27 @@
+.skills {
+  background-color: var(--secondary-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.skill-technical-item {
+  height: 120px;
+  margin-left: 60px;
+  margin-right: 60px;
+  align-self: center;
+  fill: var(--primary-dark);
+}
+
+.skill-people-item {
+  margin-left: 60px;
+  margin-right: 60px;
+  align-self: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: var(--primary-dark);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  align-content: center;
+}

@@ -1,0 +1,28 @@
+.social-media {
+  background-color: var(--secondary);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-media-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: auto;
+  gap: 50px;
+}
+
+.social-media-item {
+  cursor: pointer;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.social-media-item-logo {
+    width: 100px; 
+    height: 100px; 
+    fill: white;
+}

@@ -1,27 +1,19 @@
 import React from "react";
-import { ReactComponent as AndroidLogo } from "../assets/Android_logo_2023_(stacked).svg";
-import { ReactComponent as IosLogo } from "../assets/ios.svg";
-import { ReactComponent as NodeLogo } from "../assets/nodejsStackedDark.svg";
-import { ReactComponent as JavaLogo } from "../assets/java-horizontal-cropped.svg";
-import { ReactComponent as ReactLogo } from "../assets/react-2.svg";
-import { ReactComponent as ReactNativeLogo } from "../assets/react-native-1.svg";
-import { ReactComponent as GenAILogo } from "../assets/openai.svg";
-import { ReactComponent as PostgresLogo } from "../assets/Postgresql_elephant.svg";
-import { ReactComponent as ElasticLogo } from "../assets/Elasticsearch_logo.svg";
-import { ReactComponent as AWSLogo } from "../assets/Amazon_Web_Services_Logo.svg";
+import { ReactComponent as AndroidLogo } from "../../assets/Android_logo_2023_(stacked).svg";
+import { ReactComponent as IosLogo } from "../../assets/ios.svg";
+import { ReactComponent as NodeLogo } from "../../assets/nodejsStackedDark.svg";
+import { ReactComponent as JavaLogo } from "../../assets/java-horizontal-cropped.svg";
+import { ReactComponent as ReactLogo } from "../../assets/react-2.svg";
+import { ReactComponent as ReactNativeLogo } from "../../assets/react-native-1.svg";
+import { ReactComponent as GenAILogo } from "../../assets/openai.svg";
+import { ReactComponent as PostgresLogo } from "../../assets/Postgresql_elephant.svg";
+import { ReactComponent as ElasticLogo } from "../../assets/Elasticsearch_logo.svg";
+import { ReactComponent as AWSLogo } from "../../assets/Amazon_Web_Services_Logo.svg";
+import "./index.css"
 
 export default function Skills() {
   return (
-    <div
-      className="Section-Default Skills"
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-evenly",
-      }}
-    >
-      {/* <h1 style={{ color: "var(--primary-dark)", fontSize: "48px" }}>Skills</h1> */}
-
+    <div className="Section-Default skills">
       <h2 style={{ color: "var(--primary-dark)", fontSize: "28px" }}>
         <u>Technical Skills</u>
       </h2>
@@ -36,7 +28,7 @@ export default function Skills() {
         }}
       >
         <p
-          className="Skill-Technical-Item"
+          className="skill-technical-item"
           style={{
             color: "var(--primary-dark)",
             textAlign: "center",
@@ -51,7 +43,7 @@ export default function Skills() {
         </p>
         <div>
           <AndroidLogo
-            className="Skill-Technical-Item"
+            className="skill-technical-item"
             style={{
               width: "100px",
             }}
@@ -61,7 +53,7 @@ export default function Skills() {
         </div>
         <div>
           <IosLogo
-            className="Skill-Technical-Item"
+            className="skill-technical-item"
             style={{
               width: "100px",
             }}
@@ -71,7 +63,7 @@ export default function Skills() {
         </div>
         <div>
           <JavaLogo
-            className="Skill-Technical-Item"
+            className="skill-technical-item"
             style={{
               width: "100px",
             }}
@@ -81,7 +73,7 @@ export default function Skills() {
         </div>
         <div>
           <NodeLogo
-            className="Skill-Technical-Item"
+            className="skill-technical-item"
             style={{
               width: "100px",
             }}
@@ -91,7 +83,7 @@ export default function Skills() {
         </div>
         <div>
           <ReactLogo
-            className="Skill-Technical-Item"
+            className="skill-technical-item"
             style={{
               width: "100px",
             }}
@@ -101,7 +93,7 @@ export default function Skills() {
         </div>
         <div>
           <ReactNativeLogo
-            className="Skill-Technical-Item"
+            className="skill-technical-item"
             style={{
               width: "110px",
             }}
@@ -111,7 +103,7 @@ export default function Skills() {
         </div>
         <div>
           <GenAILogo
-            className="Skill-Technical-Item"
+            className="skill-technical-item"
             style={{
               width: "100px",
             }}
@@ -121,7 +113,7 @@ export default function Skills() {
         </div>
         <div>
           <PostgresLogo
-            className="Skill-Technical-Item"
+            className="skill-technical-item"
             stroke="var(--secondary-dark)"
             style={{
               width: "100px",
@@ -132,7 +124,7 @@ export default function Skills() {
         </div>
         <div>
           <AWSLogo
-            className="Skill-Technical-Item"
+            className="skill-technical-item"
             style={{
               width: "100px",
             }}
@@ -142,7 +134,7 @@ export default function Skills() {
         </div>
         <div>
           <ElasticLogo
-            className="Skill-Technical-Item"
+            className="skill-technical-item"
             style={{
               width: "250px",
             }}
@@ -171,11 +163,11 @@ export default function Skills() {
           justifyContent: "space-evenly",
         }}
       >
-        <p className="Skill-People-Item">Cross-functional Team Leadership</p>
-        <p className="Skill-People-Item">Strategic Networking</p>
-        <p className="Skill-People-Item">Talent Acquisition & Development</p>
-        <p className="Skill-People-Item">Conflict Management</p>
-        <p className="Skill-People-Item">Product Management</p>
+        <p className="skill-people-item">Cross-functional Team Leadership</p>
+        <p className="skill-people-item">Strategic Networking</p>
+        <p className="skill-people-item">Talent Acquisition & Development</p>
+        <p className="skill-people-item">Conflict Management</p>
+        <p className="skill-people-item">Product Management</p>
       </div>
     </div>
   );

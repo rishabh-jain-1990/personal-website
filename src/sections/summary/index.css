@@ -1,0 +1,14 @@
+.summary {
+  background-color: var(--secondary);
+}
+
+.summary-text {
+  color: var(--primary-dark);
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 2;
+  font-weight: 300;
+  font-size: 21px;
+  white-space: pre-wrap;
+}

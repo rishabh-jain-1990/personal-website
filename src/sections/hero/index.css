@@ -1,0 +1,21 @@
+.hero {
+  background-color: var(--primary);
+}
+
+.hero-square {
+  height: 55vh;
+  width: 55vh;
+  border: 6px solid var(--primary-dark);
+  border-radius: 20px;
+  bottom: 10vh;
+  left: 5vw;
+  position: relative;
+}
+
+.hero-image {
+  height: 55vh;
+  border-radius: 20px;
+  position: relative;
+  top: 10vh;
+  right: 10vw;
+}

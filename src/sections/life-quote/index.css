@@ -1,0 +1,13 @@
+.life-quote {
+  background-color: var(--secondary-dark);
+}
+
+.life-quote-text {
+  color: var(--primary-dark);
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 40px;
+  font-size: 26;
+  white-space: pre-wrap;
+}

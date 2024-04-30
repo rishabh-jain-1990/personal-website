@@ -64,91 +64,12 @@
   justify-content: space-around;
 }
 
-.Hero {
-  background-color: var(--primary);
-}
-
-.Hero-Square {
-  height: 55vh;
-  width: 55vh;
-  border: 6px solid var(--primary-dark);
-  border-radius: 20px;
-  bottom: 10vh;
-  left: 5vw;
-  position: relative;
-}
-
-.Hero-Image {
-  height: 55vh;
-  border-radius: 20px;
-  position: relative;
-  top: 10vh;
-  right: 10vw;
-}
-
-.Life-Quote {
-    background-color: var(--secondary-dark);
-  }
-
-.Summary {
-  background-color: var(--secondary);
-}
-
-.Social-Media {
-  background-color: var(--secondary);
-}
-
 .Projects {
   background-color: var(--primary-dark);
-}
-
-.Skills {
-  background-color: var(--secondary-dark);
 }
 
 .Work-Experience {
   background-color: var(--secondary-dark);
   flex-direction: column;
   justify-content: flex-start;
-}
-
-.Education {
-  background-color: var(--secondary);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.Education-Item {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  height: auto;
-}
-
-.Social-Media-Item {
-  cursor: pointer;
-  margin-left: 60px;
-  margin-right: 60px;
-  /* margin-top: 50px; */
-}
-
-.Skill-Technical-Item {
-  height: 120px;
-  margin-left: 60px;
-  margin-right: 60px;
-  align-self: center;
-  fill: var(--primary-dark);
-}
-
-.Skill-People-Item {
-  margin-left: 60px;
-  margin-right: 60px;
-  align-self: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: var(--primary-dark);
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  align-content: center;
 }
