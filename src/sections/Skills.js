@@ -9,7 +9,6 @@ import { ReactComponent as GenAILogo } from "../assets/openai.svg";
 import { ReactComponent as PostgresLogo } from "../assets/Postgresql_elephant.svg";
 import { ReactComponent as ElasticLogo } from "../assets/Elasticsearch_logo.svg";
 import { ReactComponent as AWSLogo } from "../assets/Amazon_Web_Services_Logo.svg";
-import Ticker from "nice-react-ticker";
 
 export default function Skills() {
   return (
