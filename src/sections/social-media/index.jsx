@@ -5,8 +5,8 @@ import { ReactComponent as LiLogo } from "../../assets/icons8-linkedin.svg";
 import { ReactComponent as XLogo } from "../../assets/x_logo.svg";
 import { ReactComponent as MediumLogo } from "../../assets/Medium_Symbol_NoPadding.svg";
 import { openInNewTab } from "../../utils/Methods.js";
-import "./index.css"
-import "../../App.css"
+import "./index.css";
+import "../../App.css";
 
 export default function SocialMedia() {
   return (
@@ -35,7 +35,10 @@ export default function SocialMedia() {
           onClick={() => openInNewTab("https://twitter.com/rjain90")}
           className="social-media-item"
         >
-          <XLogo className="social-media-item-logo" />
+          <XLogo
+            className="social-media-item-logo"
+            style={{ height: "85px", width: "85px" }}
+          />
         </div>
         <div
           onClick={() => openInNewTab("https://medium.com/@rjain90")}
