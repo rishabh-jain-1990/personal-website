@@ -10,6 +10,7 @@ import { ReactComponent as PostgresLogo } from "../../assets/Postgresql_elephant
 import { ReactComponent as ElasticLogo } from "../../assets/Elasticsearch_logo.svg";
 import { ReactComponent as AWSLogo } from "../../assets/Amazon_Web_Services_Logo.svg";
 import "./index.css"
+import "../../App.css"
 
 export default function Skills() {
   return (

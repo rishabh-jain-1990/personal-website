@@ -1,6 +1,7 @@
 import React from "react";
 import { life_quote } from "../../utils/Constants";
 import "./index.css";
+import "../../App.css"
 
 export default function LifeQuote() {
   return (

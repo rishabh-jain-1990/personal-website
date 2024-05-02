@@ -6,6 +6,7 @@ import { ReactComponent as XLogo } from "../../assets/x_logo.svg";
 import { ReactComponent as MediumLogo } from "../../assets/Medium_Symbol_NoPadding.svg";
 import { openInNewTab } from "../../utils/Methods.js";
 import "./index.css"
+import "../../App.css"
 
 export default function SocialMedia() {
   return (

@@ -2,6 +2,7 @@ import React from "react";
 import ncl_logo from '../../assets/png-transparent-newcastle-university-hd-logo.png';
 import jiit_logo from '../../assets/jiit-logo.png';
 import "./index.css"
+import "../../App.css"
 
 export default function Education() {
   return (
