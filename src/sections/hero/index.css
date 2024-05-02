@@ -5,7 +5,7 @@
 .hero-square {
   height: 55vh;
   width: 55vh;
-  border: 6px solid var(--primary-dark);
+  border: 6px solid var(--secondary-darker);
   border-radius: 20px;
   bottom: 10vh;
   left: 5vw;
