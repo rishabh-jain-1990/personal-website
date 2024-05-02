@@ -14,7 +14,7 @@ export default function Hero() {
         </h3>
       </div>
       <div className="hero-square">
-        <img className="hero-image" src={hero_img}></img>
+        <img className="hero-image" src={hero_img} alt="Image of Rishabh Jain"></img>
       </div>
     </div>
   );

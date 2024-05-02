@@ -127,7 +127,7 @@ export default function Skills() {
       >
         <u>People Skills</u>
       </h2>
-      <div className="skills-grid" style={{marginBottom:'20px'}}>
+      <div className="skills-grid" style={{ marginBottom: "20px" }}>
         <p className="skill-people-item">Cross-functional Team Leadership</p>
         <p className="skill-people-item">Strategic Networking</p>
         <p className="skill-people-item">Talent Acquisition & Development</p>

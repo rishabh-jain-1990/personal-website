@@ -17,19 +17,22 @@ export default function SocialMedia() {
           onClick={() => openInNewTab("https://www.instagram.com/rjain90")}
           className="social-media-item"
         >
-          <InstaLogo className="social-media-item-logo" />
+          <InstaLogo className="social-media-item-logo" 
+            alt="Instagram Logo" />
         </div>
         <div
           onClick={() => openInNewTab("https://github.com/rishabh-jain-1990")}
           className="social-media-item"
         >
-          <GitLogo className="social-media-item-logo" />
+          <GitLogo className="social-media-item-logo"
+            alt="Github Logo" />
         </div>
         <div
           onClick={() => openInNewTab("https://www.linkedin.com/in/rjain90")}
           className="social-media-item"
         >
-          <LiLogo className="social-media-item-logo" />
+          <LiLogo className="social-media-item-logo"
+            alt="LinkedIn Logo" />
         </div>
         <div
           onClick={() => openInNewTab("https://twitter.com/rjain90")}
@@ -38,13 +41,15 @@ export default function SocialMedia() {
           <XLogo
             className="social-media-item-logo"
             style={{ height: "85px", width: "85px" }}
+            alt="X (ex Twitter) Logo"
           />
         </div>
         <div
           onClick={() => openInNewTab("https://medium.com/@rjain90")}
           className="social-media-item"
         >
-          <MediumLogo className="social-media-item-logo" />
+          <MediumLogo className="social-media-item-logo"
+            alt="Medium Logo" />
         </div>
       </div>
     </div>
