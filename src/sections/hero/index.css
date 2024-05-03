@@ -1,10 +1,12 @@
 .hero {
   background-color: var(--secondary);
+  flex-wrap: wrap;
 }
 
 .hero-square {
-  height: 55vh;
-  width: 55vh;
+  width: 30%;
+  aspect-ratio: 1;
+  min-width: 200px;
   border: 6px solid var(--secondary-darker);
   border-radius: 20px;
   bottom: 10vh;
@@ -13,7 +15,7 @@
 }
 
 .hero-image {
-  height: 55vh;
+  width: 100%;
   border-radius: 20px;
   position: relative;
   top: 10vh;
