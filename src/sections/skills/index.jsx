@@ -15,13 +15,7 @@ import "../../App.css";
 export default function Skills() {
   return (
     <div className="Section-Default skills">
-      <h2
-        style={{
-          color: "var(--primary-dark)",
-          fontSize: "28px",
-          marginTop: "20px",
-        }}
-      >
+      <h2 className="section-heading">
         <u>Technical Skills</u>
       </h2>
       <div className="skills-grid">
@@ -118,13 +112,7 @@ export default function Skills() {
         </div>
       </div>
 
-      <h2
-        style={{
-          color: "var(--primary-dark)",
-          marginTop: "4%",
-          fontSize: "28px",
-        }}
-      >
+      <h2 className="section-heading">
         <u>People Skills</u>
       </h2>
       <div className="skills-grid" style={{ marginBottom: "20px" }}>

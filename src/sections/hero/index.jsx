@@ -8,8 +8,8 @@ export default function Hero() {
   return (
     <div className="Section-Default hero">
       <div style={{ marginLeft: "50px", marginRight: "50px" }}>
-        <h1 style={{ color: "var(--secondary-darker)" }}>{hero_title}</h1>
-        <h3 style={{ color: "var(--secondary-darker)", marginTop: "10px" }}>
+        <h1 style={{ color: "var(--secondary-dark)" }}>{hero_title}</h1>
+        <h3 style={{ color: "var(--secondary-dark)", marginTop: "10px" }}>
           {hero_subtitle}
         </h3>
       </div>

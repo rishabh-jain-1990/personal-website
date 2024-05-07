@@ -7,49 +7,26 @@ import "../../App.css";
 export default function Education() {
   return (
     <div className="Section-Default education">
-      <h1 style={{ color: "white", marginTop: "5%" }}>Education</h1>
-
+      <h1 className="section-heading" style={{color: "var(--secondary-dark)"}}><u>Education</u></h1>
       <div className="education-item">
-        <div
-          style={{ flexDirection: "column", display: "flex", marginLeft: "5%" }}
-        >
-          <h1 style={{ color: "white" }}>Newcastle University, UK</h1>
-          <h2 style={{ color: "var(--secondary-darker)", marginTop: "10px" }}>
-            B. Eng, Electronics and Computer Science, 2009 - 2011
-          </h2>
+        <div className="education-text">
+          <h1>Newcastle University, UK</h1>
+          <h2>B. Eng, Electronics and Computer Science, 2009 - 2011</h2>
         </div>
         <img
+          className="education-ncl-img"
           src={ncl_logo}
-          style={{
-            width: "25%",
-            maxWidth: "300px",
-            minWidth: "200px",
-            display: "flex",
-            marginRight: "5%",
-          }}
           alt="Newcastle University Logo"
         />
       </div>
       <div className="education-item">
-        <div
-          style={{ flexDirection: "column", display: "flex", marginLeft: "5%" }}
-        >
-          <h1 style={{ color: "white" }}>
-            Jaypee Institue of Information Technology, JIIT
-          </h1>
-          <h2 style={{ color: "var(--secondary-darker)", marginTop: "10px" }}>
-            B. Tech, Computer Science Engineering, 2008 - 2009
-          </h2>
+        <div className="education-text">
+          <h1>Jaypee Institue of Information Technology, JIIT</h1>
+          <h2>B. Tech, Computer Science Engineering, 2008 - 2009</h2>
         </div>
         <img
+          className="education-jiit-img"
           src={jiit_logo}
-          style={{
-            width: "10%",
-            maxWidth: "250px",
-            minWidth: "150px",
-            display: "flex",
-            marginRight: "5%",
-          }}
           alt="Jaypee Institute of Information Technology Logo"
         />
       </div>

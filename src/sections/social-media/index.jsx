@@ -11,28 +11,25 @@ import "../../App.css";
 export default function SocialMedia() {
   return (
     <div className="Section-Default social-media">
-      <h1 style={{ color: "white", marginTop: "5%" }}>Social Media</h1>
+      <h1 className="section-heading" style={{color: "var(--secondary-dark)"}}><u>Social Media</u></h1>
       <div className="social-media-container">
         <div
           onClick={() => openInNewTab("https://www.instagram.com/rjain90")}
           className="social-media-item"
         >
-          <InstaLogo className="social-media-item-logo" 
-            alt="Instagram Logo" />
+          <InstaLogo className="social-media-item-logo" alt="Instagram Logo" />
         </div>
         <div
           onClick={() => openInNewTab("https://github.com/rishabh-jain-1990")}
           className="social-media-item"
         >
-          <GitLogo className="social-media-item-logo"
-            alt="Github Logo" />
+          <GitLogo className="social-media-item-logo" alt="Github Logo" />
         </div>
         <div
           onClick={() => openInNewTab("https://www.linkedin.com/in/rjain90")}
           className="social-media-item"
         >
-          <LiLogo className="social-media-item-logo"
-            alt="LinkedIn Logo" />
+          <LiLogo className="social-media-item-logo" alt="LinkedIn Logo" />
         </div>
         <div
           onClick={() => openInNewTab("https://twitter.com/rjain90")}
@@ -48,8 +45,7 @@ export default function SocialMedia() {
           onClick={() => openInNewTab("https://medium.com/@rjain90")}
           className="social-media-item"
         >
-          <MediumLogo className="social-media-item-logo"
-            alt="Medium Logo" />
+          <MediumLogo className="social-media-item-logo" alt="Medium Logo" />
         </div>
       </div>
     </div>

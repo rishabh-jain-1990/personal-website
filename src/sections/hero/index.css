@@ -7,7 +7,7 @@
   width: 30%;
   aspect-ratio: 1;
   min-width: 200px;
-  border: 6px solid var(--secondary-darker);
+  border: 6px solid var(--secondary-dark);
   border-radius: 20px;
   bottom: 10vh;
   left: 5vw;

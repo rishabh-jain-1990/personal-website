@@ -4,7 +4,7 @@ import Summary from "./sections/summary";
 import Skills from "./sections/skills";
 import Projects from "./sections/Projects";
 import SocialMedia from "./sections/social-media";
-import WorkExperience from "./sections/Work Experience";
+import WorkExperience from "./sections/work-experience";
 import Education from "./sections/education";
 import Contact from "./sections/Contact";
 import Testimonials from "./sections/Testimonials";

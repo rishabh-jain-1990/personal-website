@@ -54,7 +54,6 @@
   --primary-dark: #525960;
   --secondary: #f4a261;
   --secondary-dark: #f8f9fa;
-  --secondary-darker: #fcfcfc;
 }
 
 .Section-Default {
@@ -72,4 +71,10 @@
   background-color: var(--secondary-dark);
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.section-heading {
+  color: var(--primary-dark);
+  font-size: 32px;
+  margin-top: 5%;
 }
