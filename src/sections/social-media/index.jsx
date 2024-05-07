@@ -10,26 +10,43 @@ import "../../App.css";
 
 export default function SocialMedia() {
   return (
-    <div className="Section-Default social-media">
-      <h1 className="section-heading" style={{color: "var(--secondary-dark)"}}><u>Social Media</u></h1>
+    <div className="section-default social-media">
+      <h1
+        className="section-heading"
+        style={{ color: "var(--secondary-dark)" }}
+      >
+        <u>Social Media</u>
+      </h1>
       <div className="social-media-container">
         <div
           onClick={() => openInNewTab("https://www.instagram.com/rjain90")}
           className="social-media-item"
         >
-          <InstaLogo className="social-media-item-logo" alt="Instagram Logo" />
+          <InstaLogo
+            className="social-media-item-logo"
+            alt="Instagram, Link: https://www.instagram.com/rjain90"
+            title="Instagram"
+          />
         </div>
         <div
           onClick={() => openInNewTab("https://github.com/rishabh-jain-1990")}
           className="social-media-item"
         >
-          <GitLogo className="social-media-item-logo" alt="Github Logo" />
+          <GitLogo
+            className="social-media-item-logo"
+            alt="Github, Link: https://github.com/rishabh-jain-1990"
+            title="Github"
+          />
         </div>
         <div
           onClick={() => openInNewTab("https://www.linkedin.com/in/rjain90")}
           className="social-media-item"
         >
-          <LiLogo className="social-media-item-logo" alt="LinkedIn Logo" />
+          <LiLogo
+            className="social-media-item-logo"
+            alt="LinkedIn, Link: https://www.linkedin.com/in/rjain90"
+            title="LinkedIn"
+          />
         </div>
         <div
           onClick={() => openInNewTab("https://twitter.com/rjain90")}
@@ -38,14 +55,19 @@ export default function SocialMedia() {
           <XLogo
             className="social-media-item-logo"
             style={{ height: "85px", width: "85px" }}
-            alt="X (ex Twitter) Logo"
+            alt="X (ex Twitter), Link: https://twitter.com/rjain90"
+            title="X (ex Twitter)"
           />
         </div>
         <div
           onClick={() => openInNewTab("https://medium.com/@rjain90")}
           className="social-media-item"
         >
-          <MediumLogo className="social-media-item-logo" alt="Medium Logo" />
+          <MediumLogo
+            className="social-media-item-logo"
+            alt="Medium Logo, Link: https://medium.com/@rjain90"
+            title="Medium"
+          />
         </div>
       </div>
     </div>

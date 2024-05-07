@@ -6,7 +6,7 @@ import "../../App.css";
 
 export default function Hero() {
   return (
-    <div className="Section-Default hero">
+    <div className="section-default hero">
       <div style={{ marginLeft: "50px", marginRight: "50px" }}>
         <h1 style={{ color: "var(--secondary-dark)" }}>{hero_title}</h1>
         <h3 style={{ color: "var(--secondary-dark)", marginTop: "10px" }}>
@@ -17,7 +17,8 @@ export default function Hero() {
         <img
           className="hero-image"
           src={hero_img}
-          alt="Image of Rishabh Jain"
+          alt="Rishabh Jain, Profile Photo"
+          title="Rishabh Jain"
         ></img>
       </div>
     </div>

@@ -56,21 +56,15 @@
   --secondary-dark: #f8f9fa;
 }
 
-.Section-Default {
+.section-default {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.Projects {
+.projects {
   background-color: var(--primary-dark);
-}
-
-.Work-Experience {
-  background-color: var(--secondary-dark);
-  flex-direction: column;
-  justify-content: flex-start;
 }
 
 .section-heading {

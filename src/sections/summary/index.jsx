@@ -5,7 +5,7 @@ import "../../App.css"
 
 export default function Summary() {
   return (
-    <div className="Section-Default summary">
+    <div className="section-default summary">
       <div
         dangerouslySetInnerHTML={{ __html: summary_text }}
         className="summary-text"

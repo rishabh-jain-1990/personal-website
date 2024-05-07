@@ -6,8 +6,13 @@ import "../../App.css";
 
 export default function Education() {
   return (
-    <div className="Section-Default education">
-      <h1 className="section-heading" style={{color: "var(--secondary-dark)"}}><u>Education</u></h1>
+    <div className="section-default education">
+      <h1
+        className="section-heading"
+        style={{ color: "var(--secondary-dark)" }}
+      >
+        <u>Education</u>
+      </h1>
       <div className="education-item">
         <div className="education-text">
           <h1>Newcastle University, UK</h1>
@@ -17,6 +22,7 @@ export default function Education() {
           className="education-ncl-img"
           src={ncl_logo}
           alt="Newcastle University Logo"
+          title="Newcastle University"
         />
       </div>
       <div className="education-item">
@@ -28,6 +34,7 @@ export default function Education() {
           className="education-jiit-img"
           src={jiit_logo}
           alt="Jaypee Institute of Information Technology Logo"
+          title="Jaypee Institute of Information Technology"
         />
       </div>
     </div>

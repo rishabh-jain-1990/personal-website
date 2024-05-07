@@ -6,7 +6,7 @@ import "../../App.css";
 
 export default function WorkExperience() {
   return (
-    <div className="Section-Default work-experience">
+    <div className="section-default work-experience">
       <h1 className="section-heading">
         <u>Work Experience</u>
       </h1>
@@ -18,7 +18,8 @@ export default function WorkExperience() {
         <img
           className="work-experience-logo"
           src={default_logo}
-          alt="Newcastle University Logo"
+          alt="Default Logo"
+          title="Default"
         />
       </div>
       <div className="work-experience-item">
@@ -29,7 +30,8 @@ export default function WorkExperience() {
         <img
           className="work-experience-logo"
           src={bs_logo}
-          alt="Jaypee Institute of Information Technology Logo"
+          alt="Bowstring Studio Logo"
+          title="Bowstring Studio"
         />
       </div>
     </div>

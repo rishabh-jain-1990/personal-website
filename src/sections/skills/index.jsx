@@ -14,7 +14,7 @@ import "../../App.css";
 
 export default function Skills() {
   return (
-    <div className="Section-Default skills">
+    <div className="section-default skills">
       <h2 className="section-heading">
         <u>Technical Skills</u>
       </h2>

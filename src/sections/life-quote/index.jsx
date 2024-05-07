@@ -5,7 +5,7 @@ import "../../App.css"
 
 export default function LifeQuote() {
   return (
-    <div className="Section-Default life-quote">
+    <div className="section-default life-quote">
       <p className="life-quote-text">{life_quote}</p>
     </div>
   );
